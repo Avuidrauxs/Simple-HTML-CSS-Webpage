@@ -5,7 +5,7 @@
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="styles/stles.css">
 </head>
 
   <nav class="navbar navbar-default">
@@ -15,9 +15,9 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
   </div>
 </nav>
@@ -32,22 +32,77 @@
   <section class="container">
   <div class="row">
     <figure class="col-sm-6">
-    <p>Growth Mindset</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
+    <p>Table example</p>
+        <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Adwoa</td>
+        <td>Dee</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Sala</td>
+        <td>Faa</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Paa</td>
+        <td>thomas</td>
+        <td>23</td>
+      </tr>
+    </tbody>
+  </table>
     </figure>
     <figure class="col-sm-6">
-    <p>Growth Mindset</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
+    <p>Example of Forms</p>
+      <form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
     </figure>
   </div>
   <div class="row"> 
    <figure class="col-sm-6">
-    <p>Growth Mindset</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
+    <p>Example of List Group with BAdges</p>
+       <ul class="list-group">
+  <li class="list-group-item">New <span class="badge">12</span></li>
+  <li class="list-group-item">Deleted <span class="badge">5</span></li>
+  <li class="list-group-item">Warnings <span class="badge">3</span></li>
+</ul>
     </figure>
     <figure class="col-sm-6">
-    <p>Growth Mindset</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
+    <p>Popover Example</p>
+    
+    <a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="focus" data-content="Click anywhere in the document to close this popover">Click me</a>
     </figure>
   </div>
   
